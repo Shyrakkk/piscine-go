@@ -1,1 +1,1 @@
-awk ' {print $1} '
+awk '{$1=$2=""; print $0}'
