@@ -6,10 +6,10 @@ func PrintNbr(n int) {
 	if n < 0 {
 		z01.PrintRune('-')
 	}
-	ShyrNbr(n)
+	SetNbr(n)
 }
 
-func ShyrNbr(n int) {
+func SetNbr(n int) {
 	z := '0'
 	if n == 0 {
 		z01.PrintRune(z)
@@ -22,7 +22,7 @@ func ShyrNbr(n int) {
 		z++
 	}
 	if n/10 != 0 {
-		ShyrNbr(n / 10)
+		SetNbr(n / 10)
 	}
 	z01.PrintRune(z)
 	return
