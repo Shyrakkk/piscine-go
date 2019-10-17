@@ -5,4 +5,5 @@ package piscine
 		*a = *a / *b
 		*b = x % *b
 	}
+
 	
