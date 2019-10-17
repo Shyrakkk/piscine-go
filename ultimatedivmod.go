@@ -4,6 +4,5 @@ package piscine
 		var x int = *a
 		*a = *a / *b
 		*b = x % *b
-	}
+}
 
-	
