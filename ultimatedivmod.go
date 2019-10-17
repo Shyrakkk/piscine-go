@@ -5,4 +5,3 @@ func UltimateDivMod(a *int, b *int) {
 	*a = *a / *b
 	*b = x % *b
 }
-
