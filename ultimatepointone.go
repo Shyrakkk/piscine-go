@@ -1,6 +1,6 @@
 package piscine
 
-func UltimatePpintOne(n ***int) {
+func UltimatePointOne(n ***int) {
 
 	***n = 1
 
