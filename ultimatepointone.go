@@ -11,8 +11,6 @@ func main() {
 	a := 1
 	addOne(&a)
 
-	println(a)
-
 }
 
 func addTwo(n *int) {
