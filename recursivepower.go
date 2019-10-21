@@ -1,14 +1,16 @@
 package piscine
 
-func RecursivePower(nb int, power int) int {
-	var result int
-	if power < 0 {
-		return 0
+func RecursiveFactorial(nb int) int {
+
+	if nb <= 25 {
+		if nb == 0 {
+			return 1
+		}
+		if nb <= 0 {
+			return 0
+		} else {
+			return nb * RecursiveFactorial(nb-1)
+		}
 	}
-	if power == 0 {
-		return 1
-	}
-	if power > 1 {
-		return nb * RecursivePower(nb-1)
-	}
+	return 0
 }
