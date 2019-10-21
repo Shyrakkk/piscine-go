@@ -9,8 +9,8 @@ func IteractivePower(nb int, power int) int {
 		return 1
 	}
 	if power == 1 {
+		return nb
 	}
-	return nb
 	result := 1
 	for i := 1; i <= power; i++ {
 		result = result * nb
