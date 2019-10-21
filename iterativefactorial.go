@@ -11,9 +11,8 @@ func IterativeFactorial(nb int) int {
 		result := 1
 		for a := 1; a <= nb; a++ {
 			result = a * result
-			return result
 		}
-
+		return result
 	}
 
 }
