@@ -2,7 +2,7 @@ package piscine
 
 func IterativeFactorial(nb int) int {
 
-	if nb <= 1 || nb > 20 {
+	if nb <= 0 || nb > 20 {
 		return 0
 	} else {
 		result := 1
@@ -10,7 +10,7 @@ func IterativeFactorial(nb int) int {
 		for ; a <= nb; a++ {
 			result = result * a
 		}
-		return result
+		return (result)
 	}
 
 }
