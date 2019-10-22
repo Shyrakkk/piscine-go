@@ -23,7 +23,7 @@ func PrintNbrInOrder(n int) {
 			arsh = append(arsh, eachValue)
 		}
 
-		for count := range array {
+		for count := range arsh {
 			arshCount = count + 1
 		}
 		for i := 0; i < arshCount-1; i++ {
