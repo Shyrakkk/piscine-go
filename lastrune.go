@@ -1,7 +1,10 @@
 package piscine
 
 func LastRune(s string) rune {
-	wraq := []rune(s)
-	return wraq[n-1]
+	for index := range wraq {
+		index++
+		wraq := []rune(s)
+		return wraq[index-1]
 
+	}
 }
