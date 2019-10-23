@@ -2,9 +2,7 @@ package piscine
 
 func NRune(s string, n int) rune {
 
-	var n int
-
-	shsh := []rune(n)
+	shsh := []rune(s)
 	return shsh[n]
 
 }
