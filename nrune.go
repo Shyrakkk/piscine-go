@@ -1,8 +1,8 @@
 package piscine
 
 func NRune(s string, n int) rune {
-
-	shsh := []rune(s)
-	return shsh[n-1]
-
+	for i := range shsh {
+		shsh := []rune(s)
+		return shsh[n-1]
+	}
 }
