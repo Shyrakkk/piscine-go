@@ -6,7 +6,6 @@ func LastRune(s string) rune {
 	for index := range wraq {
 		index++
 
-		return wraq[index-1]
-
 	}
+	return wraq[index-1]
 }
